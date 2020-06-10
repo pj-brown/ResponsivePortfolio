@@ -1,0 +1,99 @@
+body{
+    background-color: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/moroccan-flower.png");
+	/* height: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom: 2px solid;
+}
+
+.navbar-brand{
+    height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#logo{
+    color: #ffffff;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Headers */
+
+h1,h2,{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h1,h2,h3,p{
+    margin-bottom: 20px;
+}
+
+h3{
+    position: relative;
+}
+
+/* Porfolio page */
+
+.img-responsive{
+    
+}
+
+.img-title{
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 100%;
+}
+
+
+/* Contact page */
+
+
+
+/* Footer can't get it to center the text?*/
+
+.footer-section{
+    display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    clear: both;
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 8px solid #4aaaa5;
+}
+
+
+
