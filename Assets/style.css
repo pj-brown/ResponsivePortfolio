@@ -74,7 +74,7 @@ body{
     align-content: center;
 }
 
-h1,h2,{
+h1,h2 {
     font-family: 'Noto Sans', sans-serif;
     color: #27fdf5;
     font-weight: bold;
@@ -96,9 +96,9 @@ h3{
 
 /* Porfolio page */
 
-.img-responsive{
+/* .img-responsive{
     
-}
+} */
 
 .img-title{
     position: absolute;
