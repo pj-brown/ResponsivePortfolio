@@ -16,12 +16,13 @@ body{
 
 .container{
     width: 640px;
-    background-color: #27fdf5;
+    background-image: linear-gradient(to bottom right, #f765b8,#9431ad,#65b5f7, #27fdf5);
+    color: white;
     border-color: #d7fffe;
     border-style: outset;
     border-radius: 25px;
 }
-.about-me, .contact{
+.about-card, .contact{
     margin: auto;
     width: 640px;
     margin-top: 200px;
@@ -157,7 +158,7 @@ h3{
         width: 100%;
         margin: 0px;
     }
-    .splash-card {
+    .splash-card, .about-card {
         margin: auto;
     }
 }
