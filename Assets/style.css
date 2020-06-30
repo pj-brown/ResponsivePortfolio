@@ -2,7 +2,7 @@ body{
     background-color: none;
     font-family: 'Noto Sans', sans-serif;
     color: #777777;
-    background-image: url(/Assets/images/background-image.jpg);
+    background-image: url(./images/background-image.jpg);
     /* height: 100%; */
     background-position: center;
     background-repeat: no-repeat;
