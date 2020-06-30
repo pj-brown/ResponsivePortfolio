@@ -21,7 +21,9 @@ body{
     border-style: outset;
     border-radius: 25px;
 }
-.about-me{
+.about-me, .contact{
+    margin: auto;
+    width: 640px;
     margin-top: 200px;
 }
 /* Navbar */
