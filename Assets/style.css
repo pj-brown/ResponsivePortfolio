@@ -1,6 +1,6 @@
 body{
     background-color: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: #777777;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/moroccan-flower.png");
 	/* height: 100%; */
@@ -12,25 +12,30 @@ body{
 
 .container{
     width: 960px;
-    background-color: #ffffff;
-    border-color: #dddddd;
+    background-color: #f765b8;
+    border-color: #d7fffe;
+    border-style: outset;
+    border-radius: 25px;
 }
 
 /* Navbar */
 
 .navbar{
-    background-color: #ffffff;
-    border-color: #cccccc;
+    background-color: #f765b8;
+    /* border-color: #cccccc; */
     border-bottom: 2px solid;
 }
 
 .navbar-brand{
     height: 75px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
+    font-family: 'Noto Sans', sans-serif;
+    background-color:#27fdf5;
     color: #ffffff;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 400;
+    align-content: center;
+    vertical-align: middle;
+    padding: 5px;
 }
 
 #logo{
@@ -48,15 +53,19 @@ body{
 
 /* Headers */
 
+.welcome{
+    align-content: center;
+}
+
 h1,h2,{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Noto Sans', sans-serif;
     color: #4aaaa5;
     font-weight: bold;
 }
 
 h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    color: salmon;
     font-weight: bold;
 }
 
@@ -81,6 +90,11 @@ h3{
 }
 
 
+.splash-card {
+    margin: auto;
+    margin-top: 100px;
+}
+
 /* Contact page */
 
 
@@ -88,7 +102,7 @@ h3{
 /* Footer can't get it to center the text?*/
 
 .footer-section{
-    display: inline-flex;
+    display: flex;
     position: fixed;
     bottom: 0;
     clear: both;
@@ -96,7 +110,8 @@ h3{
     background-color: #666666;
     color: #ffffff;
     margin: auto;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     padding-top: 20px;
     border-top: 8px solid #4aaaa5;
 }
@@ -107,4 +122,8 @@ h3{
         width: 100%;
         margin: 0px;
     }
+    .splash-card {
+        margin: auto;
+    }
 }
+
