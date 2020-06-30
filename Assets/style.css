@@ -2,40 +2,51 @@ body{
     background-color: none;
     font-family: 'Noto Sans', sans-serif;
     color: #777777;
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/moroccan-flower.png");
-	/* height: 100%; */
+    background-image: url(/Assets/images/background-image.jpg);
+    /* height: 100%; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: scroll;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 
 .container{
-    width: 960px;
-    background-color: #f765b8;
+    width: 640px;
+    background-color: #27fdf5;
     border-color: #d7fffe;
     border-style: outset;
     border-radius: 25px;
 }
-
+.about-me{
+    margin-top: 200px;
+}
 /* Navbar */
 
-.navbar{
-    background-color: #f765b8;
-    /* border-color: #cccccc; */
+.navbar, .navbar-custom{
+    background-image: linear-gradient(to bottom right, #f765b8,#9431ad,#65b5f7, #27fdf5);
     border-bottom: 2px solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .navbar-brand{
-    height: 75px;
+    background-image: linear-gradient(to bottom right, #27fdf5,#65b5f7,#9431ad, #f765b8);
+    border-width: 1.5px;
+    height: 60px;
     font-family: 'Noto Sans', sans-serif;
     background-color:#27fdf5;
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: 400;
-    align-content: center;
-    vertical-align: middle;
-    padding: 5px;
+    border-color: #f765b8;
+    text-align: center;
+    padding: 10px;
+    border-style: inset;
+    border-radius: 10px;
 }
 
 #logo{
@@ -46,8 +57,12 @@ body{
 }
 
 .nav-link {
+    background-image: linear-gradient(to bottom right, #27fdf5,#65b5f7,#9431ad, #f765b8);
+    background-color: #27fdf5;
     border-style: inset;
+    border-width: 1.5px;
     border-radius: 10px;
+    border-color: #f765b8;
     margin: 5px;
 }
 
@@ -59,7 +74,7 @@ body{
 
 h1,h2,{
     font-family: 'Noto Sans', sans-serif;
-    color: #4aaaa5;
+    color: #27fdf5;
     font-weight: bold;
 }
 
@@ -85,12 +100,12 @@ h3{
 
 .img-title{
     position: absolute;
-    background-color: #4aaaa5;
+    background-color: #27fdf5;
     width: 100%;
 }
 
 
-.splash-card {
+.splash-card, .card-deck {
     margin: auto;
     margin-top: 100px;
 }
@@ -113,7 +128,25 @@ h3{
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 3px solid #27fdf5;
+}
+.card{
+    border-radius: 20px;
+}
+.port-cards{
+    border-radius: 20px 20px 0 0;
+}
+.card-footer{
+    display: inline-block;
+    justify-content: center;
+    /* margin: auto; */
+}
+.btn-custom{
+    background-color: #f765b8;
+}
+.portfolio-btn-link{
+    color: #27fdf5;
+    font-weight: 600;
 }
 
 
