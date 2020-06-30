@@ -40,6 +40,12 @@ body{
     text-align: center;
 }
 
+.nav-link {
+    border-style: inset;
+    border-radius: 10px;
+    margin: 5px;
+}
+
 /* Headers */
 
 h1,h2,{
