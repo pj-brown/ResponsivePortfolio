@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
-	  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+	  <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
 		  <a class="navbar-brand" href="index.html">Patrick Brown</a>
 		  <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
 			  aria-expanded="false" aria-label="Toggle navigation">
@@ -20,77 +20,57 @@
 		  </button>
 		  <div class="collapse navbar-collapse" id="collapsibleNavId">
 			  <ul class="nav navbar-nav ml-auto" id="navbar-links">
-				<li class="nav-item active navbar-links">
+				<li class="nav-item active dropdown">
 					<a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item active">
+				<li class="nav-item active dropdown">
 					<a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
 				</li>
-				<li class="nav-item active">
+				<li class="nav-item active dropdown">
 					<a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
 				</li>
 			  </ul>
 		  </div>
-	  </nav>
+      </nav>
+      
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <h1>Portfolio</h1>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="col-sm-12 thumbnail text-center">
-                <img class="img-responsive" src="Assets/bird.jpg" alt="Word Guess">
-                <div class="img-title">
-                    <h3>Word Guess</h3>
+        <div class="card-deck">
+            <div class="card">
+                <img src="Assets/images/dishtracker.png" class="card-img-top port-cards" alt="dish tracker">
+                <div class="card-body">
+                    <h5 class="card-title">Dish Tracker</h5>
+                    <p class="card-text">I was a part of the team that developed Dish Tracker - click the "Repo" button below to see the GitHub repository. The README file describes the project and includes links to the rest of the team! If you'd like to try if for yourself, simply click the "Run the app!" button!</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-custom float-left"><a class="portfolio-btn-link" target="_blank" href="https://github.com/pj-brown/caps">Repo</a></button>
+                    <button  class="btn btn-custom float-right"><a class="portfolio-btn-link" target="_blank" href="https://pj-brown.github.io/caps/">Run the app!</a></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/codequiz.png" class="card-img-top port-cards" alt="code quiz!">
+                <div class="card-body">
+                    <h5 class="card-title">Code Quiz!</h5>
+                    <p class="card-text">This is simply a quiz on JavaScript fundamentals. Give it a shot using the "Run the app!" button below.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-custom float-left"><a class="portfolio-btn-link" target="_blank" href="https://github.com/pj-brown/CodeQuiz">Repo</a></button>
+                    <button  class="btn btn-custom float-right"><a class="portfolio-btn-link" target="_blank" href="https://pj-brown.github.io/CodeQuiz/">Run the app!</a></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Assets/images/passwordgenerator.png" class="card-img-top port-cards" alt="dish tracker">
+                <div class="card-body">
+                    <h5 class="card-title">Password Generator</h5>
+                    <p class="card-text">A random password generator that will create a password based on user input! Vary your password with variables including length, case, symbols, and numbers by pressing the "Run the app!" button below.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-custom float-left"><a class="portfolio-btn-link" target="_blank" href="https://github.com/pj-brown/PasswordGenerator">Repo</a></button>
+                    <button  class="btn btn-custom float-right"><a class="portfolio-btn-link" target="_blank" href="https://pj-brown.github.io/PasswordGenerator/">Run the app!</a></button>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-4">
-            <div class="col-sm-12 thumbnail text-center">
-                <img class="img-responsive" src="Assets/karate.jpg" alt="RPG Game">
-                <div class="img-title">
-                    <h3>RPG Game</h3>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <div class="col-sm-12 thumbnail text-center">
-                <img class="img-responsive" src="Assets/explosion.jpg" alt="Trivia Game">
-                <div class="img-title">
-                    <h3>Trivia Game</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="col-sm-12 thumbnail text-center">
-                <img class="img-responsive" src="Assets/checkers.jpg" alt="Info Widget">
-                <div class="img-title">
-                    <h3>Info Widget</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="col-sm-12 thumbnail text-center">
-                <img class="img-responsive" src="Assets/ninjas.jpg" alt="Rock Paper Scissors">
-                <div class="img-title">
-                    <h3>Rock Paper Scissors</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
         
