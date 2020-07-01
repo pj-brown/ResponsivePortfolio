@@ -22,7 +22,7 @@ body{
     border-style: outset;
     border-radius: 25px;
 }
-.about-card, .contact{
+.splash-card, .about-card, .contact{
     margin: auto;
     width: 640px;
     margin-top: 200px;
